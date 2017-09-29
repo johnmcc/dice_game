@@ -6,16 +6,11 @@ class Dice
       random_number = rand(1..6)
       result << random_number
     end
-      return result
+    
+    return result
   end
 
   def roll_to_score(numbers)
-    return numbers
-                .sort()
-                .reverse()
-                .join()
-                .to_i()
-
+    return numbers.sort.reverse().join().to_i()
   end
-
 end

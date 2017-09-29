@@ -12,10 +12,9 @@ class TestPlayer < MiniTest::Test
   end
 
   def test_has_a_name
-    #arrange
-
     #act
     name = @player.name
+    
     #assert
     assert_equal("John", name)
   end
